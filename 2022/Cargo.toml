@@ -1,0 +1,14 @@
+[workspace]
+members = ["day*"]
+exclude = []
+
+[workspace.package]
+authors = ["Trey Lowerison <19714082+tlowerison@users.noreply.github.com>"]
+edition = "2021"
+version = "0.1.0"
+
+[workspace.dependencies]
+anyhow = "1.0.66"
+clap = { version = "4.0.29", features = ["derive"] }
+derive-getters = "0.2.0"
+derive_more = "0.99.17"
